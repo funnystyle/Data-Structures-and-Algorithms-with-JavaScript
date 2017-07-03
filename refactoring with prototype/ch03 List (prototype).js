@@ -1,5 +1,3 @@
-var print = console.log;
-
 var List = function() {
     this.listSize = 0;
     this.pos = 0;
@@ -95,6 +93,7 @@ List.prototype.contains = function(element) {
 };
 
 // Test
+var print = console.log;
 
 var names = new List();
 names.append("Cynthia");

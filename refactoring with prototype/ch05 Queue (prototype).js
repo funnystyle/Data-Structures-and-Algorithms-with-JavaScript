@@ -10,7 +10,7 @@ Queue.prototype.dequeue = function() {
     return this.dataStore.shift();
 };
 
-Queue.prototype.front = function() {
+Queue.prototype.front = function() { 
     return this.dataStore[0];
 };
 

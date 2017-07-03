@@ -8,7 +8,7 @@ Stack.prototype.push = function(element) {
 };
 
 Stack.prototype.peek = function() {
-    return this.dataStore[this.top - 1];
+    return this.dataStore[this.top - 1]; 
 };
 
 Stack.prototype.pop = function() {
