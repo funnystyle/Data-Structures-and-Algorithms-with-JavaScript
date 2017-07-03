@@ -110,6 +110,8 @@ function getElement() {
     return this.dataStore[this.pos];
 }
 
+//-- Test
+
 var names = new List();
 names.append("Cynthia");
 names.append("Raymond");

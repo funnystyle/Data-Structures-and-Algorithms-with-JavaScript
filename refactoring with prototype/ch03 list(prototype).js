@@ -94,6 +94,7 @@ List.prototype.contains = function(element) {
     return false;
 };
 
+// Test
 
 var names = new List();
 names.append("Cynthia");
